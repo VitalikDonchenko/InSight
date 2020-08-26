@@ -1,0 +1,77 @@
+body {
+  background-image: url(/img/insight-mars.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  color: #fff !important;
+}
+
+.divColor1 {
+  font-size: 40px;
+  font-weight: 500;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.divColor2 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: 30px;
+  margin-top: 120px;
+}
+
+.container {
+  background: rgba(23, 23, 24, 0.5);
+  width: 150px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.text {
+  text-align: center;
+}
+
+.con1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+}
+
+.con3,
+.con4 {
+  font-size: 20px;
+}
+
+.todayAll {
+  display: flex;
+  justify-content: left;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.today1 {
+  margin-left: 50px;
+  text-align: center;
+}
+
+.today2 {
+  margin-left: 100px;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 300;
+}
+
+.solToday {
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.dateToday {
+  font-size: 25px;
+  font-weight: 400;
+}
