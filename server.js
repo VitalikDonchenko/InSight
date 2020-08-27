@@ -12,5 +12,5 @@ app.use(express.urlencoded({ extended: false }));
 
 app.use('/', indexRouter);
 
-app.listen(process.env.PORT);
-// app.listen(process.env.PORT ?? 3000);
+// app.listen(process.env.PORT);
+app.listen(process.env.PORT ?? 3000);
