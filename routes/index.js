@@ -11,6 +11,7 @@ router.get('/', async (req, res) => {
     },
   });
   const result = await response.json();
+  console.log(result);
   const arraySol = result.sol_keys;
   const arrDates = [];
   const minTemp = [];
